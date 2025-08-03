@@ -1,0 +1,10 @@
+debug: true
+
+server:
+  port: 4242
+
+spring:
+  profile:
+    active: dev
+  application:
+    name: Spring Boot Configuration Project
