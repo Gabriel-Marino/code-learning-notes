@@ -1,0 +1,3 @@
+#### For primitives types JS allocate each variable in it's own memory address, and even if a variable it's set to another and this other is update, the change not propagate to the first one
+
+#### For an object this is not true, because each object is not assigned to their own memory address, the memory address just receive an address for the real location of the object and when it's assigned one object to another, if the second object is modified then the first will be modified too, because when the second object receive the first object he is receiveng the memory address where the first object is allocated.

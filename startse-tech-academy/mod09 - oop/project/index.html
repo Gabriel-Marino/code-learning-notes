@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funding Simulator</title>
+        <style>
+            /* To reset all elements */
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            /* Make the scroll bar a little more thick */
+            *::-webkit-scrollbar {
+                width: 7px;
+            }
+
+            /* Make the background of the scroll bar vanish */
+            *::-webkit-scrollbar-track {
+                background: transparent;
+            }
+
+            /* Change scrollbar collor and make the top and bottom rounded */
+            *::-webkit-scrollbar-thumb {
+                background-color: orange;
+                border-radius: 21px;
+            }
+
+            /* Change the letter collor when selected text and make the background of the selection vanish */
+            *::selection {
+                color: red;
+                background-color: transparent;
+            }
+            body {
+                background: rgb(69, 69, 69);
+                color: white;
+                font: 12pt Times New Roman;
+            }
+            table, th, td {
+                border: 1px solid white;
+                border-collapse: collapse;
+                padding: 15px;
+            }
+            tr::nth-child(even) {
+                background-color: gold;
+            }
+        </style>
+        <script type="module" src="./index.js"></script>
+        <script type="module" src="./funding.js"></script>
+        <script type="module" src="./installments.js"></script>
+        <script type="module" src="./shortage.js"></script>
+    </head>
+    <body>
+        <h2>Funding simulator with constant amortization</h2>
+        <input type="text" id="mortage-input" placeholder="Mortage"><br>
+        <input type="text" id="entry-value" placeholder="Entry value"><br>
+        <input type="text" id="fee-tax" placeholder="Fee tax (%)"><br>
+        <input type="text" id="term-months" placeholder="Term (months)"><br>
+        <button id="calculate-button">Calculate</button>
+        <input id="with-shortage" type="checkbox">with shortage?
+        <select id="shortage-list" hidden>
+            <option value="2">2 months</option>
+            <option value="3">3 months</option>
+            <option value="4">4 months</option>
+            <option value="5">5 months</option>
+            <option value="6">6 months</option>
+        </select>
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Amount</th>
+                    <th>Amortization</th>
+                    <th>Tax</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Semantic HTML practice</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./07 - flexbox practice.css'>
+        <script src='main.js'></script>
+        <!-- <style>
+            ul#navbar li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: transparent;
+                display: inline-block;
+            }
+            aside#sidebar {
+                float: left;
+                width: 200px;
+                height: 100%;
+                position: fixed;
+                background-color: #f1f1f1;
+                padding: 20px;
+            }
+            header, nav, section, figure {
+                float: right;
+                width: calc(100% - 310px);
+                height: 100%;
+                padding: 20px;
+            }
+        </style> -->
+    </head>
+    <body>
+        <header id="page-header">
+            <h1>Whole page title!</h1>
+            <h2>page subtitle</h2>
+        </header>
+        <nav id="nav-header">
+            <h1>navigation bar</h1>
+            <ul id="navbar">
+                <li><a href="#articles" rel="noopener noreferrer">Articles</a></li>
+                <li><a href="#footer" rel="noopener noreferrer">Footer</a></li>
+            </ul>
+        </nav>
+        <div class="flex-container">
+            <aside id="sidebar">
+                <h2>Side Menu</h2>
+                <ul>
+                    <li>thing 0</li>
+                    <li>thing 1</li>
+                    <li>thing 2</li>
+                    <li>thing 3</li>
+                </ul>
+            </aside>
+            <main id="articles">
+                <h1>Articles</h1>
+                <article>
+                    <header>
+                        <h1>Article #1</h1>
+                        <p>
+                            <span>something something something</span><br>
+                            <mark>something marked</mark>
+                        </p>
+                    </header>
+                    <section>
+                        <p>
+                            The text from the articles goes here!
+                        </p>
+                    </section>
+                    <figure>
+                        <img src="https://akiramarket.ru/files/resized/products/4580416941211_6.600x800.jpeg" height="224" alt="saitama figure action">
+                        <figcaption>Strongest man in the universe!</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <header>
+                        <h1>Article #2</h1>
+                        <p>
+                            <span>something something something</span><br>
+                            <strong>SOMETHING STRONG!!!!!!!</strong>
+                        </p>
+                    </header>
+                    <section>
+                        <p>
+                            The text from the articles goes here!
+                        </p>
+                    </section>
+                    <figure>
+                        <img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg" height="680" alt="i don't have words to describe this place, really stunning.">
+                        <figcaption>A magnificent place.</figcaption>
+                    </figure>
+                </article>
+            </main>
+        </div>
+        <footer id="footer">
+            <address></address>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="#page-header" rel="noopener noreferrer">back to top.</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

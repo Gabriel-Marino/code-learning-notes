@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            <%= title %>
+        </title>
+        <style>
+            .nestedList ul {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <%= include("../layout/header.ejs") %>
+
+        <h1>Working with Express and EJS</h1>
+        <ul class="nestedList">
+            <% articles.map( article => { %>
+                    <li>
+                        <a href="https://www.doi.org/<%= article.doi %>" target="_blank"><%= article.title %></a> (<a href="./abstract/<%= article.doi%>" target="_blank">abstract</a>)
+                    </li>
+            <% } ) %>
+        </ul>
+
+        <%= include("../layout/footer.ejs") %>
+    </body>
+</html>
