@@ -1,0 +1,1 @@
+- Parte intagível do computador, programas (sistema operaciona, drivers, aplicativos e utilitários), da vida ao hardware.

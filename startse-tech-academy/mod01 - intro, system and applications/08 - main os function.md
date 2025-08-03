@@ -1,0 +1,1 @@
+- tem como função gerenciar processos e arquvios.

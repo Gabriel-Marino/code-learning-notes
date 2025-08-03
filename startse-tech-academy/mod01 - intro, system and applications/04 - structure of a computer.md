@@ -1,0 +1,2 @@
+- Atualmente é utilizada a arquitetura de Von Neumann, todo computador tem ao menos entrada (dados por teclados, mouses ou outros equipamentos), processsamento (operações lógicas e aritméticas) e saída (informação);
+- os primeiros computadores foram construídos com Válvulas termiônicas, depois com transistores, então circuitos integrados e atualmente com chips VLSI (very large scale integration).

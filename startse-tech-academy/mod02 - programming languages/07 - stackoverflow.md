@@ -1,0 +1,1 @@
+- Procuras nas perguntas já existentes, usar as tags.

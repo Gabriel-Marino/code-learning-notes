@@ -1,0 +1,6 @@
+- em 62 EUA criou CCD, então em 66 ARPANET, ambas de uso exclusivamente militar;
+- em 82 desenvolvimento do TCP/IP e então liberado para uso civil;
+- ip: Internet protocol, é o endereço que reconhece cada computador da rede, muda de tempos em tempos, ip é formado por quatro octetos que vão de 0 a 255;
+- MAC Address é o endereço que da identidade a máquina, ou seja, cada computador tem um único MAC Address e é formado por seis bytes com dois algarismos hexadecimal cada e separados por dois pontos ou hífen;
+- DNS: Domain Name Systema, criado em 84 para traduzir um endereço (url) a um endereço que remete a rede desejada;
+- HTTP: Hypertext Transfer Protocol, é o conjunto de regras que permite os computadores se comunicarem, junto com ele foi criado o HTML e os primeiros navegadores WEB, tudo na década de 90 pelo Tim Berners-Lee no CERN.

@@ -1,0 +1,2 @@
+- Alto Nível é a linguagem mais próxima da linguagem natural humana (inglês, português, etc);
+- Baixo Nível é uma linguagem mais próxima da máquina, como assembly que recebe código hexadecimal.

@@ -1,0 +1,1 @@
+- Conjunto de práticas para a abordagem sistemática, disciplinada e quantificavel no desenvolvimento, na operação e manutenção de software.

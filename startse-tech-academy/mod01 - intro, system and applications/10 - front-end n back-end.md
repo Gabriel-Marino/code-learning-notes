@@ -1,0 +1,2 @@
+- Front-end é a interface da aplicação;
+- Back-end é tudo aquilo que o usuário não vê diretamente e que está sendo usado para que a aplicação funciona devidamente, resposanvel pela implementação das regras de negócio.

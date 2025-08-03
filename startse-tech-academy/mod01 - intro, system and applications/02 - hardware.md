@@ -1,0 +1,3 @@
+- Parte física de um computador, abrange componentes como gabinete, placa-mãe, armazenamento (hd, ssd), periféricos (teclado, mouse, monitor);
+- hd também são periféricos, pois os hardware centrais são: placa-mãe, processador, memória RAM, fonte;
+- Memórias RAM são volatéis, não armazenam informação sem estarem energizadas, servem para que o conteudo de um programa saia do hd e fique mais facil de acessar quando usar o determinado programa.

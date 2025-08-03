@@ -1,0 +1,2 @@
+- Conduzir o raciocinio para o desenvolvimento das soluções;
+- Racionar é o ato de obter novas informações apartir das informações exitentes.

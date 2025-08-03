@@ -1,0 +1,1 @@
+- Lógica é a área da matemática que investiga proposições e a sua veracidade.

@@ -1,0 +1,1 @@
+- Transformam o código programada em binário ou hexadecimal (linguagem que o computador entende).

@@ -1,0 +1,1 @@
+- CSS: cascading style sheet, dar um estilo próprio para o HTML.
